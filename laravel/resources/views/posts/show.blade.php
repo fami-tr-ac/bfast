@@ -80,7 +80,7 @@
                         </div>
                         <div class="py-3">
                             {!! nl2br(e($comment->text)) !!}
-                        <img src="{{ asset('storage/avatar/' .$timeline->post_image) }}" width="100" height="200">
+                        <img src="{{ asset('storage/post_images/' .$timeline->post_image) }}" class="card-img-bottom" width"100" height="600">
                         </div>
                     </li>
                 @empty
