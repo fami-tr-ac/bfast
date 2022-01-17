@@ -29,7 +29,7 @@
             </span>
         @enderror
 
-    </div>
+      </div>
       <div class="form-group @error('email')has-error @enderror">
         <label>メールアドレス</label>
         <input type="email" name="email" class="form-control" placeholder="メールアドレスを入力してください">
@@ -48,20 +48,20 @@
               {{ $message }}
             </span>
         @enderror
-    </div>
+      </div>
       <div class="form-group">
         <label>確認用パスワード</label>
         <input type="password" name="password_confirmation" class="form-control" placeholder="パスワードを再度入力してください">
       </div>
 
       
-    </div>
+    
 
       <div class="text-center">
-      <button type="submit" class="btn submitBtn">はじめる</button>
-      <div class="linkToLogin">
-        <a href="{{ route('login') }}">ログインはこちら</a>
-      </div>
+        <button type="submit" class="btn submitBtn">はじめる</button>
+        <div class="linkToLogin">
+          <a href="{{ route('login') }}">ログインはこちら</a>
+        </div>
       </div>
     </form>
   </div>
