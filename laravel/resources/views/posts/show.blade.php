@@ -18,7 +18,7 @@
                 <div class="card-body">
                     {!! nl2br(e($post->text)) !!}
                 </div>
-                <img src="{{ asset('storage/post_images/' .$post->post_image) }}" class="card-img-bottom" width"100" height="600">
+                <img src="{{ asset('storage/post_images/' .$post->post_image) }}" class="card-img-bottom" width="100" height="600">
                 <div class="card-footer py-1 d-flex justify-content-end bg-white">
                     @if ($post->user->id === Auth::user()->id)
                         <div class="dropdown mr-3 d-flex align-items-center">
