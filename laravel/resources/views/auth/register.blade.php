@@ -30,6 +30,16 @@
         @enderror
 
       </div>
+      <div class="form-group @error('screen_name')has-error @enderror">
+        <label>screen名</label>
+        <input type="text" name="screen_name" class="form-control" placeholder="名前を入力してください">
+        @error('screen_name')
+            <span class="errorMessage">
+              {{ $message }}
+            </span>
+        @enderror
+
+      </div>
       <div class="form-group @error('email')has-error @enderror">
         <label>メールアドレス</label>
         <input type="email" name="email" class="form-control" placeholder="メールアドレスを入力してください">
