@@ -23,7 +23,7 @@
                             {!! nl2br(e($timeline->text)) !!}
                         </p>
                         @if(file_exists(public_path().'/storage/post_images/'. $timeline->post_image))
-                        <img src="{{ asset('storage/post_images/' .$timeline->post_image) }}" class="card-img-bottom" width"100" height="600">
+                        <img src="{{ asset('storage/post_images/' .$timeline->post_image) }}" class="card-img-bottom" width="100" height="600">
                         @endif
 
                         </div>
