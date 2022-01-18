@@ -78,7 +78,7 @@
                           <p class="card-text">
                               {!! nl2br(e($timeline->text)) !!}
                           </p>
-                        <img src="{{ asset('storage/post_images/' .$timeline->post_image) }}" class="card-img-bottom" width"100" height="600">
+                        <img src="{{ asset('storage/post_images/' .$timeline->post_image) }}" class="card-img-bottom" width="100" height="600">
                         </div>
 
                         <div class="card-footer py-1 d-flex justify-content-end bg-white">
